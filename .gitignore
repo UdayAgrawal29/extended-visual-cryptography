@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Output folders (generated files)
+evc_output/
+evcs_output/
+
+# Ignore research papers / PDFs
+*.pdf
+*.PDF
+
+# Local backup copy
+evcs_copy.py
