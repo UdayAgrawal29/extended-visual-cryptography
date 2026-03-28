@@ -35,16 +35,10 @@ pip install numpy Pillow
 
 ## Run EVCS
 
-### Command used earlier (when all inputs were in one folder)
+### Command for current folder structure
 
 ```bash
-python evcs.py --cover1 C3.jpg --cover2 c1.jpg --secret s2.jpg --size 256 --m 16
-```
-
-### Updated command for current folder structure
-
-```bash
-python evcs.py --cover1 covers/C3.jpg --cover2 covers/c1.jpg --secret secret/s2.jpg --size 256 --m 16
+python evcs.py --cover1 covers/c1.jpg --cover2 covers/c3.jpg --secret secret/s2.jpg --size 256 --m 16
 ```
 
 You can change any parameter as needed.

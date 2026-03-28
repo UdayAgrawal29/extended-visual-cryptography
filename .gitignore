@@ -17,7 +17,6 @@ Thumbs.db
 
 # Output folders (generated files)
 evc_output/
-evcs_output/
 
 # Ignore research papers / PDFs
 *.pdf
